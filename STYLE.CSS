@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 188, 255);
+    color: white;
+    height: 50px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+   /* for button container  */
+
+#btn-cont {
+    display: flex;
+    justify-content: space-evenly;
+margin-top: 20px;
+width: 600px;
+    margin-left: 23%;
+
+}
+ 
+/* styling of html  ,  css  ,  js buttons */
+
+
+#btn-cont .btn {
+    background:linear-gradient(50deg ,rgb(132, 235, 255),skyblue);
+    border-radius: 15px;
+    border: 2px solid white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px 8px;
+    padding: 6px 8px;
+    width: 10%;
+
+
+}
+
+#btn-cont .btn:hover{
+    cursor: pointer;
+   font-size: 15px;
+    transition: 0.5s;
+    background: linear-gradient(45deg , rgb(163, 186, 196),skyblue, white);
+}
+
+
+/* styling  for question containeer  */
+
+
+#Q-cont {
+    height: 400px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(18, 188, 255);
+    border: 2px solid white;
+    border-radius: 35px;
+    color: white;
+    margin-top: 19px;
+    margin-left: 25%;
+
+}
+#Q-cont h2{
+    margin-left: 10%;
+}
+
+#Q-cont p{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#Q-cont .opn{
+    height: 25px;
+    width: 280px;
+    background: linear-gradient(45deg , rgb(163, 186, 196), skyblue,white );
+    border: 0px;
+    border-radius: 13px;
+    list-style-type: none;
+    padding-left:15px ;
+    margin-top: 10px;
+    margin: 13px 116px ;
+
+
+}
+#Q-cont .opn:hover{
+    cursor: pointer;
+   font-size: 20px;
+    transition: 0.5s;
+    background: linear-gradient(45deg , rgb(163, 186, 196),white ,skyblue );
+}
+#Q-cont .btn{
+display: flex;
+justify-content: space-around;
+
+}
+#Q-cont .P-N-btn{
+    background: linear-gradient(45deg , skyblue,skyblue, white);
+color: white;
+border: 0px;
+border-radius: 70px;
+height: 35px;
+width: 55px;
+padding: 4px 8px;
+margin-top: 20px;
+/* margin-left: -15%; */
+}
+#Q-cont .P-N-btn:hover{
+    cursor: pointer;
+   
+     transition: 0.5s;
+     background: linear-gradient(45deg ,white ,skyblue );
+ }
+
+ #Q-cont .sub{
+
+
+ background: linear-gradient(45deg , skyblue,skyblue, white);
+ color: white;
+ border: 0px;
+ border-radius: 70px;
+ height: 35px;
+width: 112px;
+margin-left: 40%;
+}
+#Q-cont .sub:hover{
+    cursor: pointer;
+   border: 2px solid skyblue ;
+   box-shadow: inset;
+   font-size: 15px;
+     transition: 0.3s;
+     background: linear-gradient(45deg ,white ,skyblue );
+ }
